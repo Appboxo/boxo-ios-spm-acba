@@ -78,6 +78,7 @@ import _SwiftConcurrencyShims
   @objc public var permissionsPage: Swift.Bool
   @objc public var showClearCache: Swift.Bool
   @objc public var showAboutPage: Swift.Bool
+  @objc public var preciseLocation: Swift.Bool
   @objc public var splashBackgroundColors: BoxoSDK.SplashBackgroundColors?
   @objc public var progressBarColors: BoxoSDK.ProgressBarColors?
   @objc public var consentScreenConfig: BoxoSDK.ConsentScreenConfig

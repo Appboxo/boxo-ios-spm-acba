@@ -3532,6 +3532,99 @@
           },
           {
             "kind": "Var",
+            "name": "preciseLocation",
+            "printedName": "preciseLocation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@BoxoSDK@objc(cs)Config(py)preciseLocation",
+            "mangledName": "$s7BoxoSDK6ConfigC15preciseLocationSbvp",
+            "moduleName": "BoxoSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BoxoSDK@objc(cs)Config(im)preciseLocation",
+                "mangledName": "$s7BoxoSDK6ConfigC15preciseLocationSbvg",
+                "moduleName": "BoxoSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@BoxoSDK@objc(cs)Config(im)setPreciseLocation:",
+                "mangledName": "$s7BoxoSDK6ConfigC15preciseLocationSbvs",
+                "moduleName": "BoxoSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7BoxoSDK6ConfigC15preciseLocationSbvM",
+                "mangledName": "$s7BoxoSDK6ConfigC15preciseLocationSbvM",
+                "moduleName": "BoxoSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "splashBackgroundColors",
             "printedName": "splashBackgroundColors",
             "children": [
@@ -12061,29 +12154,36 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk-acba\/ios-sdk-acba\/BoxoSDK\/BoxoSDK\/source\/sdk\/Config.swift",
+      "kind": "BooleanLiteral",
+      "offset": 533,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/ios-sdk-acba\/ios-sdk-acba\/BoxoSDK\/BoxoSDK\/source\/sdk\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 789,
+      "offset": 834,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk-acba\/ios-sdk-acba\/BoxoSDK\/BoxoSDK\/source\/sdk\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 1050,
+      "offset": 1095,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk-acba\/ios-sdk-acba\/BoxoSDK\/BoxoSDK\/source\/sdk\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1070,
+      "offset": 1115,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk-acba\/ios-sdk-acba\/BoxoSDK\/BoxoSDK\/source\/sdk\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1105,
+      "offset": 1150,
       "length": 2,
       "value": "\"\""
     },
@@ -12092,7 +12192,7 @@
       "kind": "StringLiteral",
       "offset": 274,
       "length": 13,
-      "value": "\"1.31.0-acba\""
+      "value": "\"1.32.0-acba\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk-acba\/ios-sdk-acba\/BoxoSDK\/BoxoSDK\/source\/sdk\/CustomEvent.swift",
@@ -12538,14 +12638,14 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk-acba\/ios-sdk-acba\/BoxoSDK\/BoxoSDK\/source\/js\/JS.swift",
       "kind": "BooleanLiteral",
-      "offset": 9733,
+      "offset": 9981,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk-acba\/ios-sdk-acba\/BoxoSDK\/BoxoSDK\/source\/js\/JS.swift",
       "kind": "Dictionary",
-      "offset": 14669,
+      "offset": 14917,
       "length": 3,
       "value": "[]"
     },
@@ -13910,63 +14010,63 @@
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk-acba\/ios-sdk-acba\/BoxoSDK\/BoxoSDK\/source\/utils\/Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 2904,
+      "offset": 3105,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk-acba\/ios-sdk-acba\/BoxoSDK\/BoxoSDK\/source\/utils\/Extensions.swift",
       "kind": "FloatLiteral",
-      "offset": 9709,
+      "offset": 9910,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk-acba\/ios-sdk-acba\/BoxoSDK\/BoxoSDK\/source\/utils\/Extensions.swift",
       "kind": "FloatLiteral",
-      "offset": 9975,
+      "offset": 10176,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk-acba\/ios-sdk-acba\/BoxoSDK\/BoxoSDK\/source\/utils\/Extensions.swift",
       "kind": "FloatLiteral",
-      "offset": 10014,
+      "offset": 10215,
       "length": 3,
       "value": "1.5"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk-acba\/ios-sdk-acba\/BoxoSDK\/BoxoSDK\/source\/utils\/Extensions.swift",
       "kind": "FloatLiteral",
-      "offset": 10053,
+      "offset": 10254,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk-acba\/ios-sdk-acba\/BoxoSDK\/BoxoSDK\/source\/utils\/Extensions.swift",
       "kind": "FloatLiteral",
-      "offset": 14989,
+      "offset": 15190,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk-acba\/ios-sdk-acba\/BoxoSDK\/BoxoSDK\/source\/utils\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 22615,
+      "offset": 22816,
       "length": 5,
       "value": "\"iOS\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk-acba\/ios-sdk-acba\/BoxoSDK\/BoxoSDK\/source\/utils\/Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 22881,
+      "offset": 23082,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/ios-sdk-acba\/ios-sdk-acba\/BoxoSDK\/BoxoSDK\/source\/utils\/Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 22973,
+      "offset": 23174,
       "length": 1,
       "value": "0"
     },

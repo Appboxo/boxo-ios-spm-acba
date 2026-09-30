@@ -403,6 +403,7 @@ SWIFT_CLASS_NAMED("Config")
 @property (nonatomic) BOOL permissionsPage;
 @property (nonatomic) BOOL showClearCache;
 @property (nonatomic) BOOL showAboutPage;
+@property (nonatomic) BOOL preciseLocation;
 @property (nonatomic, strong) SplashBackgroundColors * _Nullable splashBackgroundColors;
 @property (nonatomic, strong) ProgressBarColors * _Nullable progressBarColors;
 @property (nonatomic, strong) ConsentScreenConfig * _Nonnull consentScreenConfig;
@@ -997,6 +998,7 @@ SWIFT_CLASS_NAMED("Config")
 @property (nonatomic) BOOL permissionsPage;
 @property (nonatomic) BOOL showClearCache;
 @property (nonatomic) BOOL showAboutPage;
+@property (nonatomic) BOOL preciseLocation;
 @property (nonatomic, strong) SplashBackgroundColors * _Nullable splashBackgroundColors;
 @property (nonatomic, strong) ProgressBarColors * _Nullable progressBarColors;
 @property (nonatomic, strong) ConsentScreenConfig * _Nonnull consentScreenConfig;
