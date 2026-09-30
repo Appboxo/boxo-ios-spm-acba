@@ -1,0 +1,10 @@
+framework module BoxoSDK {
+  umbrella header "BoxoSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module BoxoSDK.Swift {
+  header "BoxoSDK-Swift.h"
+}
